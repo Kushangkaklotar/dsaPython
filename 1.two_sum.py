@@ -1,11 +1,13 @@
 
 class Solution:
     def twoSum(nums: [int], target: int) -> [int]:
+
         for i in range(len(nums)):
             if i <= len(nums):
-                if nums[i] + nums[i+1] == target:
-                    return[i, i+1]
+                print("Length",len(nums))
+                # if i != 
+                print("Index",i)
         
-        return nums
+        return [0, 3, 5]
 
 print(Solution.twoSum(nums=[3,2,3], target=6))
